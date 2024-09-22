@@ -17,7 +17,9 @@
             <div class="form-group">
                 <input type="text" id="nombreGasto" placeholder="Nombre del gasto">
                 <input type="number" id="valorGasto" placeholder="Valor del gasto" min="0" step="0.01">
+                <input type="text" id="descripcionGasto" maxlength="50" placeholder="Descripción del gasto">
                 <button id="botonFormulario" onclick="Agregar();">Agregar Gasto</button>
+                <button id="botonModificar" onclick="modificar();">Actualizar</button>
             </div>
             <ul id="listaDeGastos"></ul>
             <div class="total">
